@@ -1,14 +1,339 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "countries": [
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "Alabama",
+                            "cities": [
+                                "Birmingham",
+		                            "Montgomery",
+                                "Huntsville",
+                                   "Mobile",
+                                "Tuscaloosa"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "Alaska",
+                            "cities": [
+                                "Anchorage",
+								"Fairbanks",
+									"Juneau",
+									"Sitka",
+								"Ketchikan"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "American Samoa",
+                            "cities": [
+
+							"Tafuna",
+							"Ta`u",
+							"Taulaga"
+                            ]
+                        }
+                    ]
+                },
+                
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "Arizona",
+                            "cities": [
+                                "Tucson",
+								"Mesa",
+							"Chandler",
+							"Gilbert"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "Arkansas",
+                            "cities": [
+                                "Stuttgart",
+									"DeWitt",
+									"Almyra",
+							"Saint Charles",
+									"Gillett"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "California",
+                            "cities": [
+                                "San Francisco",	
+								"Fresno",
+							"Sacramento",
+							"Long Beach"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "Colorado",
+                            "cities": [
+                                "Denvercity",
+								"Aurora",
+							"Fort Collins",
+								"Lakewood"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "Connecticut",
+                            "cities": [
+                               "New Haven",
+								"Hartford",
+								"Waterbury",
+								"Norwalk",
+								"Danbury"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "Delaware",
+                            "cities": [
+                                "Newark",
+							"Middletown",
+							"Smyrna"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "US",
+                    "states": [
+                        {
+                            "name": "District of Columbia",
+                            "cities": [
+                                "Bogota",
+								"Medellin",
+									"Cali"
+                            ]
+                        }
+                    ]
+                },
+                
+				
+              
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Alberta",
+                            "cities": [
+                                "Calgary",
+"Edmonton",
+"Red Deer",
+"Lethbridge",
+"St. Albert",
+"Leduc"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "British Columbia",
+                            "cities": [
+                                "Vancouver",
+"Surrey",
+"Burnaby",
+"Richmond",
+"Abbotsford"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Manitoba",
+                            "cities": [
+                                "Winnipeg",
+"Brandon",
+"Steinbach",
+"Thompson",
+"Portage la Prairie"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "New Brunswick",
+                            "cities": [
+                                "Moncton",
+"Saint John",
+"Fredericton",
+"Dieppe",
+"Riverview"
+                            ]
+                        }
+                    ]
+                },
+                
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Newfoundland and Labrador",
+                            "cities": [
+                                "St. John's",
+"Conception Bay South","Mount Pearl",
+"Paradise",
+"Corner Brook"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Northwest Territories",
+                            "cities": [                              
+"Aklavik","Behchokǫ̀","Deline","Enterprise"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Nova Scotia",
+                            "cities": [
+                                "Halifax",
+"Cape Breton",
+"Truro",
+"Amherst"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Nunavut",
+                            "cities": [
+                               "Arctic Bay",
+"Arviat",
+"Baker Lake",
+"Bathurst Inlet",
+"Cambridge Bay",
+"Cape Dorset",
+"Chesterfield Inlet",
+"Clyde River"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Ontario",
+                            "cities": [
+                               "Toronto",
+                                "Ottawa",
+                           "Mississauga",
+                             "Brampton"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Prince Edward Island",
+                            "cities": [
+                                "Charlottetown",
+"Summerside",
+"Stratford",
+"Cornwall",
+"Three Rivers"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Quebec",
+                            "cities": [
+                               "Montreal",
+"Quebec",
+"Ottawa",
+"Sherbrooke"
+
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Saskatchewan",
+                            "cities": [
+                                "Saskatoon","Regina"," Prince Albert","Swift Current","Moose Jaw","Yorkton",
+                            "North Battleford",
+                                "Lloydminster",
+                                    "Estevan",
+                                    "Warman"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "states": [
+                        {
+                            "name": "Yukon",
+                            "cities": [
+                                "Dawson","Faro","Watson Lake", "Mayo", "Haines Junction", "Teslin","Carmacks"
+                            ]
+                        }
+                    ]
+                }
+				]
 }
